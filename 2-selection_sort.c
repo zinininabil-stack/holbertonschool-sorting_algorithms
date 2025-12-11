@@ -1,11 +1,18 @@
 #include "sort.h"
 
 /**
- * insertion_sort_list - Sorts a doubly linked list using insertion sort
- * @list: Double pointer to the head of the doubly linked list
+ * selection_sort - Sorts an array of integers in ascending order
+ * @array: Pointer to the array to sort
+ * @size: Number of elements in the array
  *
  * Return: Nothing
+ *
+ * Description:
+ *   Implements the selection sort algorithm. Repeatedly finds the minimum
+ *   element in the unsorted portion of the array and swaps it with the first
+ *   unsorted element. Prints the array after each swap.
  */
+
 void selection_sort(int *array, size_t size)
 {
 	size_t first, current;
