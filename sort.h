@@ -29,7 +29,7 @@ void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void quick_sort_child(int *array, size_t size, int **first_element,
-	int length_total);
+					  int length_total);
 void shell_sort(int *array, size_t size);
 
 #endif /* __SORT_H__ */
